@@ -6,7 +6,7 @@ const Blog = () => (
 
 
           <h1> Blog </h1>
-</Layout>
+    </Layout>
 
 )
 export default Blog;
