@@ -56,3 +56,37 @@ export const experiences = [
    },
 
 ]
+
+export const projects = [
+{
+     name: "Awesome webside 1",
+     description: "lorem30Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock",
+     image: "porfolio1.jpg"
+},
+{
+     name: "Awesome webside 1",
+     description: "lorem30Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock",
+     image: "porfolio2.jpg"
+},
+{
+     name: "Awesome webside 1",
+     description: "lorem30Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock",
+     image: "porfolio3.jpg"
+},
+{
+     name: "Awesome webside 1",
+     description: "lorem30Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock",
+     image: "porfolio4.jpg"
+},
+{
+     name: "Awesome webside 1",
+     description: "lorem30Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock",
+     image: "porfolio5.jpg"
+},
+{
+     name: "Awesome webside 1",
+     description: "lorem30Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock",
+     image: "porfolio6.jpg"
+},
+]
+
