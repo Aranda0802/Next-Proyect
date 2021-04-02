@@ -4,14 +4,13 @@ import {useRouter} from 'next/router'
 import NProgress from 'nprogress'
 import classnames from 'classnames'
 
-
 const Layout = ({children, footer = true, dark= false, title}) => {
  
   const router = useRouter();
 
             useEffect(() => {
                   const handleRouteChange = url => {
-                    console.log(url);
+                    
                     NProgress.start();
                   }
                   router.events.on('routeChangeStart', handleRouteChange)   

@@ -8,17 +8,17 @@ const Post = () => {
 
     const router = useRouter();    
 
-    const currentPost = posts.filter(post => post.title === router.query.title)[0]
-    console.log(currentPost)
+    const currentPost = posts.filter(post => post.title === router.query.title)[0]    
+
     return (
 
-        <Layout footer={false} >
+        <Layout footer={false} title={currentPost.title}>
              <div className="text-center">
-                 <img src='{}' alt="" className="img-fluid" style={{wight: '50%'}}/>
-                 <p>currentPost.content</p>
+                 <img src={currentPost.imageURL} alt="" className="img-fluid" style={{width: '50%'}}/>
+                 <p>{currentPost.content}</p>
              </div>
         </Layout>
-    )
-   
+    )   
+
 }
 export default Post;
