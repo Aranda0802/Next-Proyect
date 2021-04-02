@@ -90,3 +90,20 @@ export const projects = [
 },
 ]
 
+export const posts = [
+     {
+          title: "React",
+          content: "É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.",
+          imageURL: 'https://instabug.com/blog/wp-content/uploads/2021/01/react-native-development.png',
+     },
+     {
+          title: "Angular",
+          content: "É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.",
+          imageURL: 'https://miro.medium.com/max/1838/1*P7x-_0XfQz6CVmMY_QAv0w.png',
+     },
+     {
+          title: "Vue",
+          content: "É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.",
+          imageURL: 'https://miro.medium.com/max/3920/1*oZqGznbYXJfBlvGp5gQlYQ.jpeg',
+     },
+] 
